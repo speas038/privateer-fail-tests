@@ -1,0 +1,8 @@
+header:
+  schema-version: 2.0.0
+
+project:
+  name: Eddie Knight Dev
+
+repo:
+  url: https://github.com/eddie-knight/baseline-fail-repo
