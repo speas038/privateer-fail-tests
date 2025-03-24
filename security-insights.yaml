@@ -2,7 +2,7 @@ header:
   schema-version: 2.0.0
 
 project:
-  name: Eddie Knight Dev
+  name: Speasmachine Dev
 
 repo:
-  url: https://github.com/eddie-knight/baseline-fail-repo
+  url: https://github.com/speas038/privateer-fail-tests
