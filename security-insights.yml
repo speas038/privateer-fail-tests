@@ -23,3 +23,6 @@ repository:
           Trivy is a simple and comprehensive vulnerability scanner for containers and other artifacts, suitable for CI/CD integration.
         url: https://aquasecurity.github.io/trivy/
         version: 1.0.0
+  
+  documentation:
+    dependency-management-policy: https://example.com/dependency-management-policy
