@@ -7,18 +7,19 @@ project:
 
 repository:
   url: https://github.com/speas038/privateer-fail-tests
+  
+  security:
+    tools:
+      - name: ExampleSAST
+        type: SAST
+        description: |
+          Snyk is a developer-first security tool that helps you find and fix vulnerabilities in your code, dependencies, containers, and infrastructure as code.
+        url: https://snyk.io/
+        version: 1.0.0
 
-  tools:
-    - name: ExampleSAST
-      type: SAST
-      description: |
-        Snyk is a developer-first security tool that helps you find and fix vulnerabilities in your code, dependencies, containers, and infrastructure as code.
-      url: https://snyk.io/
-      version: 1.0.0
-
-    - name: Trivy
-      type: static-analysis
-      description: |
-        Trivy is a simple and comprehensive vulnerability scanner for containers and other artifacts, suitable for CI/CD integration.
-      url: https://aquasecurity.github.io/trivy/
-      version: 1.0.0
+      - name: Trivy
+        type: static-analysis
+        description: |
+          Trivy is a simple and comprehensive vulnerability scanner for containers and other artifacts, suitable for CI/CD integration.
+        url: https://aquasecurity.github.io/trivy/
+        version: 1.0.0
