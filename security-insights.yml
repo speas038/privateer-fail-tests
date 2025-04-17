@@ -16,6 +16,8 @@ repository:
           Snyk is a developer-first security tool that helps you find and fix vulnerabilities in your code, dependencies, containers, and infrastructure as code.
         url: https://snyk.io/
         version: 1.0.0
+        integration:
+          adhoc: true
 
       - name: Trivy
         type: static-analysis
