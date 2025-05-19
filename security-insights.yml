@@ -12,8 +12,7 @@ repository:
     tools:
       - name: ExampleSAST
         type: SAST
-        description: |
-          Snyk is a developer-first security tool that helps you find and fix vulnerabilities in your code, dependencies, containers, and infrastructure as code.
+        description: Snyk is a developer-first security tool that helps you find and fix vulnerabilities in your code, dependencies, containers, and infrastructure as code.
         url: https://snyk.io/
         version: 1.0.0
         integration:
@@ -21,8 +20,7 @@ repository:
 
       - name: Trivy
         type: static-analysis
-        description: |
-          Trivy is a simple and comprehensive vulnerability scanner for containers and other artifacts, suitable for CI/CD integration.
+        description: Trivy is a simple and comprehensive vulnerability scanner for containers and other artifacts, suitable for CI/CD integration.
         url: https://aquasecurity.github.io/trivy/
         version: 1.0.0
   
